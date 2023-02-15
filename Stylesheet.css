@@ -1,15 +1,23 @@
 .parent {
     display: flex;
     flex-direction: row;
+    background-color: blueviolet;
+}
+@media (max-width: 800px){
+    .parent {
+        flex-direction: column;
+    }
 }
 .gallery {
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 160px;
     max-width: 80%;
     margin: 0;
     padding: 20px 10px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    background-color: pink;
+    margin: 1rem;
 }
 .gallery img {
     width: 100%;
