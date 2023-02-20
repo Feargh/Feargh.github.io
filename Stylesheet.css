@@ -3,9 +3,11 @@
     flex-direction: row;
     background-color: red;
 }
-@media (max-width: 800px){
+@media screen and (max-width: 480px) {
     .parent {
         flex-direction: column;
+        float: none;
+        width: 100% !important;
     }
 }
 .gallery {
