@@ -1,7 +1,7 @@
 .parent {
     display: flex;
     flex-direction: row;
-    background-color: blueviolet;
+    background-color: red;
 }
 @media (max-width: 800px){
     .parent {
@@ -10,13 +10,14 @@
 }
 .gallery {
     justify-content: space-around;
+    flex: 1;
     align-items: center;
     gap: 160px;
     max-width: 80%;
     margin: 0;
     padding: 20px 10px;
     flex-wrap: nowrap;
-    background-color: pink;
+    background-color: grey;
     margin: 1rem;
 }
 .gallery img {
@@ -24,3 +25,20 @@
     max-width: 100%;
     margin: auto;
 }
+.collapsible {
+    background-color: #a22b2b;
+    /* color: white; */
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    /* text-align: left; */
+    outline: none;
+    /* font-size: 15px; */
+}
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
