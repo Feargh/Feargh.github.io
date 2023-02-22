@@ -27,7 +27,6 @@ flex-direction: row;
     align-items: center;
     gap: 160px;
     max-width: 100%;
-    margin: 0;
     padding: 20px 10px;
     flex-wrap: wrap;
     background-color: orange;
@@ -58,4 +57,5 @@ flex-direction: row;
 iframe {
     width: 400px;
     height: 400px;
+    border: 3px solid black;
   }
