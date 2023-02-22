@@ -1,16 +1,27 @@
 .parent {
-    display: flex;
-    flex-direction: row;
-    background-color: red;
+max-width: 910px;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
 }
-@media screen and (max-width: 480px) {
+
+/* .gallery {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+} */
+
+@media only screen and (max-width: 480px) {
     .parent {
         flex-direction: column;
+        flex-wrap: wrap;
         float: none;
         width: 100% !important;
     }
 }
 .gallery {
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
     flex: 1;
     align-items: center;
@@ -18,8 +29,8 @@
     max-width: 80%;
     margin: 0;
     padding: 20px 10px;
-    flex-wrap: nowrap;
-    background-color: grey;
+    flex-wrap: wrap;
+    background-color: orange;
     margin: 1rem;
 }
 .gallery img {
@@ -38,9 +49,9 @@
     outline: none;
     /* font-size: 15px; */
 }
-.content {
+/* .content {
     padding: 0 18px;
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
-  }
+  } */
