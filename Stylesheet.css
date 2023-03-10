@@ -1,5 +1,4 @@
 .parent {
-/* max-width: 910px; */
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;
@@ -24,8 +23,8 @@ flex-direction: row;
     flex-direction: column;
     justify-content: space-around;
     flex: 1;
-    align-items: center;
-    gap: 160px;
+    align-items: center;     /* This alignes the text in the centre */
+    gap: auto;             /* This changes how long the cards are */
     max-width: 100%;
     padding: 20px 10px;
     flex-wrap: wrap;
@@ -39,7 +38,7 @@ flex-direction: row;
 }
 .collapsible {
     background-color: #a22b2b;
-    /* color: white; */
+    color: white;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -48,12 +47,12 @@ flex-direction: row;
     outline: none;
     /* font-size: 15px; */
 }
-/* .content {
-    padding: 0 18px;
+.content {              /* this it the style for the Read more button text that appears */
     display: none;
+    /* padding: 0 18px;
     overflow: hidden;
-    background-color: #f1f1f1;
-  } */
+    background-color: #f1f1f1; */
+  }
 iframe {
     width: 400px;
     height: 400px;
