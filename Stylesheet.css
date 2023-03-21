@@ -1,43 +1,54 @@
+* {
+    background: #032B43;
+    text-align: center;
+}
+h1, h2, p {
+    max-width: 1000px;
+}
+h1 {
+    color: #FFBA08;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 48px;
+}
+h2, p {
+    font-family: 'Noto Serif', serif;
+    font-size: 15px;
+}
 .parent {
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;
+background: #032B43;
 }
-
-/* .gallery {
-    width: 300px;
-    height: 300px;
-    border: 2px solid black;
-} */
-
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
     .parent {
         flex-direction: column;
         flex-wrap: wrap;
         float: none;
         width: 100% !important;
     }
-}
+} */
 .gallery {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    flex: 1;
+    justify-content: center;
+    flex: 0;
     align-items: center;     /* This alignes the text in the centre */
     gap: auto;             /* This changes how long the cards are */
     max-width: 100%;
     padding: 20px 10px;
     flex-wrap: wrap;
-    background-color: orange;
+    background-color: #136F63;
     margin: 1rem;
 }
+
 .gallery img {
     width: 100%;
     max-width: 100%;
     margin: auto;
 }
 .collapsible {
-    background-color: #a22b2b;
+    background-color: #D00000;
     color: white;
     cursor: pointer;
     padding: 18px;
