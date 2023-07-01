@@ -1,5 +1,5 @@
 * {
-    background: #032B43;
+    background: #F4F7F6;
     text-align: center;
 }
 h1, h2, p {
@@ -13,21 +13,14 @@ h1 {
 h2, p {
     font-family: 'Noto Serif', serif;
     font-size: 15px;
+    color: #333333;
 }
 .parent {
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;
-background: #032B43;
+background: #F4F7F6;
 }
-/* @media only screen and (max-width: 480px) {
-    .parent {
-        flex-direction: column;
-        flex-wrap: wrap;
-        float: none;
-        width: 100% !important;
-    }
-} */
 .gallery {
     display: flex;
     flex-direction: column;
@@ -38,7 +31,7 @@ background: #032B43;
     max-width: 100%;
     padding: 20px 10px;
     flex-wrap: wrap;
-    background-color: #136F63;
+    background-color: #004E64;
     margin: 1rem;
 }
 
@@ -48,21 +41,17 @@ background: #032B43;
     margin: auto;
 }
 .collapsible {
-    background-color: #D00000;
+    background-color: #FFBA08;
     color: white;
     cursor: pointer;
     padding: 18px;
     width: 100%;
     border: none;
-    /* text-align: left; */
+
     outline: none;
-    /* font-size: 15px; */
 }
 .content {              /* this it the style for the Read more button text that appears */
     display: none;
-    /* padding: 0 18px;
-    overflow: hidden;
-    background-color: #f1f1f1; */
   }
 iframe {
     width: 400px;
