@@ -1,4 +1,4 @@
-# Application website for Founders and Coders
+# Showcase website for Founders and Coders
 
 ## Purpose of Project
 * To demonstrate proficiency in HTML, CSS and vanilla JavaScript
