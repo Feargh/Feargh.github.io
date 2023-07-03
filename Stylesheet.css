@@ -4,6 +4,7 @@
 }
 h1, h2, p {
     max-width: 1000px;
+    margin: auto;           /*centers the text */
 }
 h1 {
     color: #FFBA08;
@@ -12,8 +13,9 @@ h1 {
 }
 h2, p {
     font-family: 'Noto Serif', serif;
-    font-size: 15px;
     color: #333333;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .parent {
 display: flex;
