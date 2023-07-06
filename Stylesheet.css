@@ -17,31 +17,6 @@ h2, p {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.parent {
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
-background: #F4F7F6;
-}
-.gallery {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex: 0;
-    align-items: center;     /* This alignes the text in the centre */
-    gap: auto;             /* This changes how long the cards are */
-    max-width: 100%;
-    padding: 20px 10px;
-    flex-wrap: wrap;
-    background-color: #004E64;
-    margin: 1rem;
-}
-
-.gallery img {
-    width: 100%;
-    max-width: 100%;
-    margin: auto;
-}
 .collapsible {
     background-color: #FFBA08;
     color: white;
@@ -49,7 +24,6 @@ background: #F4F7F6;
     padding: 18px;
     width: 400px;
     border: none;
-
     outline: none;
 }
 .content {              /* this it the style for the Read more button text that appears */
@@ -58,8 +32,8 @@ background: #F4F7F6;
 iframe {
     width: 600px;
     height: 600px;
-    border: 3px solid black;
+    border: 20px solid black;
   }
-  footer {
+footer {
     padding-top: 20px;
   }
