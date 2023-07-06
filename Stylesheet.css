@@ -9,7 +9,10 @@ h1, h2, p {
 h1 {
     color: #FFBA08;
     font-family: 'Roboto', sans-serif;
-    font-size: 48px;
+    font-size: 9vh;
+}
+h2 {
+    font-size: 4vh;
 }
 h2, p {
     font-family: 'Roboto mono', serif;
@@ -18,6 +21,9 @@ h2, p {
 }
 h2, p, img {
     margin-bottom: 30px;
+}
+p {
+    font-size: 2.5vh;
 }
 .collapsible {
     background-color: #FFBA08;
