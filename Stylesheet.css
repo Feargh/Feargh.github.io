@@ -1,5 +1,5 @@
 * {
-    background: #F4F7F6;
+    background: rgb(114, 147, 160);
     text-align: center;
 }
 h1, h2, p {
@@ -7,17 +7,20 @@ h1, h2, p {
     margin: auto;           /*centers the text */
 }
 h1, header {
-    color: #FFBA08;
+    color: rgb(33, 209, 159);
     font-family: 'Roboto', sans-serif;
     font-size: 9vh;
     border-bottom: black 5px;
+}
+header {
+    padding: 50px;
 }
 h2 {
     font-size: 4vh;
 }
 h2, p {
     font-family: 'Roboto mono', serif;
-    color: #333333;
+    color: rgb(52, 64, 69);
     margin-top: 30px;
 }
 h2, p, figure {
@@ -48,5 +51,5 @@ footer {
   }
 
   body, main, p, h2, h3, img, section, figure, figcaption, footer {
-    background-color: aquamarine;
+    background-color: rgb(216, 221, 239);
   }
