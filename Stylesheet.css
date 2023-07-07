@@ -30,7 +30,7 @@ p {
     font-size: 2.5vh;
 }
 .collapsible {
-    background-color: #FFBA08;
+    background-color: rgb(33, 209, 159);
     color: white;
     cursor: pointer;
     padding: 18px;
