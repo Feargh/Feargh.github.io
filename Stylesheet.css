@@ -6,10 +6,11 @@ h1, h2, p {
     max-width: 1000px;
     margin: auto;           /*centers the text */
 }
-h1 {
+h1, header {
     color: #FFBA08;
     font-family: 'Roboto', sans-serif;
     font-size: 9vh;
+    border-bottom: black 5px;
 }
 h2 {
     font-size: 4vh;
@@ -19,7 +20,7 @@ h2, p {
     color: #333333;
     margin-top: 30px;
 }
-h2, p, img {
+h2, p {
     margin-bottom: 30px;
 }
 p {
@@ -44,4 +45,8 @@ iframe {
   }
 footer {
     padding-top: 20px;
+  }
+
+  body, main, p, h2, h3, img, section, figure, figcaption, footer {
+    background-color: aquamarine;
   }
