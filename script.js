@@ -14,8 +14,9 @@ for (i = 0; i < coll.length; i++) {
 }
 
 function openTab(evt, tabName) {
-  // Declare all variables
-  var i, tabcontent, tablinks;
+  var i;
+  var tabcontent;
+  var tablinks;
 
   // Get all elements with class="tabcontent" and hide them
   tabcontent = document.getElementsByClassName("tabcontent");
