@@ -56,41 +56,59 @@ footer {
     background-color: rgb(216, 221, 239);
   }
 
+* {box-sizing: border-box;}
 
    /* Style the tab */
 .tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-  }
+  float: left;
+  border: 1px solid rgb(216, 221, 239);
+  background-color: rgb(216, 221, 239);
+  width: 15%;
+  height: 300px;
+}
   
   /* Style the buttons that are used to open the tab content */
-  .tab button {
-    background-color: inherit;
-    float: center;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-    font-size: 3vh;
-    font-family: 'Roboto mono', serif;
-  }
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 14px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  /* font-size: 3vh;
+  font-family: 'Roboto mono', serif; */
+}
   
-  /* Change background color of buttons on hover */
-  .tab button:hover {
-    background-color: #ddd;
-  }
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: rgb(162, 165, 179);
+}
   
-  /* Create an active/current tablink class */
-  .tab button.active {
-    background-color: #ccc;
-  }
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: rgb(118, 132, 182);
+}
   
   /* Style the tab content */
-  .tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
-  } 
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid rgb(216, 221, 239);
+  width: 70%;
+  border-left: none;
+  height: 300px;
+} 
+.tab button .icon {
+  /* height: 2px; */
+  width: 10%;
+}
+.welcomeText {
+  font-size: 10vh;
+  text-align: left;
+  padding-left: 5vh;
+  padding-top: 30vh;
+}
