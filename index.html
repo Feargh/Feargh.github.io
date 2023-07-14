@@ -10,19 +10,32 @@
 </head>
 
 <body>
-    <header>
+    <!-- <header>
         <h1>Showcase Website</h1>
-    </header>
+    </header> -->
 
     <div class="tab">
-        <button class="tablinks" onclick="openTab(event, 'aboutMe')" id="defaultOpen">About Me</button>
+        <button class="tablinks" onclick="openTab(event, 'welcome')" id="defaultOpen">Welcome</button>
+        <button class="tablinks" onclick="openTab(event, 'aboutMe')">About Me</button>
         <button class="tablinks" onclick="openTab(event, 'developerAspirations')">Developer Aspirations</button>
         <button class="tablinks" onclick="openTab(event, 'learnings')">Learnings</button>
+        <button class="tablinks" onclick="openTab(event, 'game')">Game</button>
+        <button class="icon">
+            <a href="https://github.com/Feargh"><img src="images/github-mark-white.png" width="20" height="20"></a>
+        </button>
       </div>
 
     <main>
         
-        
+        <div id="welcome" class="tabcontent">  
+            <section>
+                    <p class="welcomeText">
+                        Hello,<br>
+                        I am Fearghal,<br>
+                        aspiring developer
+                    </p>
+            </section>
+            </div>
         <div id="aboutMe" class="tabcontent">  
         <section>
             <h2>About me</h2>
@@ -80,6 +93,14 @@
                     However, I have persevered and embraced the difficulties as opportunities for growth. 
                     Overcoming these challenges has not only expanded my knowledge but also reinforced my determination to pursue a career in coding.
                 </p>
+                <p>
+                    I initally wanted to apply for the cohort deadline of March 2023. 
+                    But as I had only started to learn to code in January I delayed my application to the July deadline.
+                    I really took the oppurnity to learn more about coding in this time.
+                    I did the first 4 weeks of CS50 which I enjoyed imensly.
+                    I learned a lot about computer science concets and the C language.
+                    When I came back to learning javascript it was very nice how many features are built into javascript compared to C.
+                </p>
                 <figure>
                     <img src="https://www.codewars.com/users/Feargh/badges/large" alt="codewars badge showing current level of member Feargh">       <!-- Codewars large badge -->
                     <figcaption>
@@ -87,14 +108,16 @@
                     </figcaption>
                 </figure>
         </section>
+        </div>
+        <div id="game" class="tabcontent">
         <section>
                 <h2>
                     Memory Game Project
                 </h2>
                 <p>
                     Initially I didn't know what game to make for my application so I decided to learn about how to code games in general.
-                    I followed many tutorials to make games including breakout, rock paper sicissors and even tetris.
-                    I when I saw a memory game tutorial I knew this was what I wanted to make.
+                    I followed many tutorials to make games including breakout, rock paper sicissors and tetris.
+                    When I saw a memory game I knew this was what I wanted to make.
                     My 5 year old nephew has been obsessed with memory games and I wanted to build a game that he could play and to put his picture in the game as a surprise was something I knew I had to do!
                 </p>
                 <button type="button" class="collapsible">See Game</button>
@@ -104,9 +127,9 @@
         </section>
         </div>
     </main>
-    <footer>
+    <!-- <footer>
         Coded by Fearghal. See my <a href="https://github.com/Feargh">Github</a> page.
-    </footer>
+    </footer> -->
     <script src="script.js"></script>
 </body>
 </html>
