@@ -8,7 +8,7 @@ h1, h2, p {
 }
 h1, header {
     color: rgb(33, 209, 159);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Istok Web', sans-serif;
     font-size: 9vh;
     border-bottom: black 5px;
     background: rgb(114, 147, 160);
@@ -20,7 +20,7 @@ h2 {
     font-size: 4vh;
 }
 h2, p {
-    font-family: 'Roboto mono', serif;
+    font-family: 'Average', serif;
     color: rgb(52, 64, 69);
     margin-top: 30px;
 }
@@ -60,10 +60,11 @@ footer {
 
    /* Style the tab */
 .tab {
+  padding-top: 20vh;
   float: left;
   border: 1px solid rgb(216, 221, 239);
   background-color: rgb(216, 221, 239);
-  width: 15%;
+  width: 12%;
   height: 300px;
 }
   
@@ -107,8 +108,12 @@ footer {
   width: 10%;
 }
 .welcomeText {
+  font-family: 'Istok Web', sans-serif;
   font-size: 10vh;
   text-align: left;
   padding-left: 5vh;
-  padding-top: 30vh;
+  /* padding-top: 15vh; */
+}
+section {
+  padding-top: 15vh;
 }
