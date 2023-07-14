@@ -1,10 +1,7 @@
-* {
-    /* background: rgb(114, 147, 160); */
-    text-align: center;
-}
 h1, h2, p {
     max-width: 1000px;
-    margin: auto;           /*centers the text */
+    margin: auto;           
+    /*centers the text */
 }
 h1, header {
     color: rgb(33, 209, 159);
@@ -17,18 +14,20 @@ header {
     padding: 50px;
 }
 h2 {
-    font-size: 4vh;
+  font-family: 'Istok Web', sans-serif;
+  font-size: 6vh;
 }
 h2, p {
-    font-family: 'Average', serif;
-    color: rgb(52, 64, 69);
-    margin-top: 30px;
+    
+  color: rgb(52, 64, 69);
+  margin-top: 30px;
 }
 h2, p, figure {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 p {
-    font-size: 2.5vh;
+  font-family: 'Average', serif;
+  font-size: 2.5vh;
 }
 .collapsible {
     background-color: rgb(33, 209, 159);
@@ -61,22 +60,20 @@ footer {
    /* Style the tab */
 .tab {
   padding-top: 20vh;
+  margin-left: 6vh;
   float: left;
-  border: 1px solid rgb(216, 221, 239);
-  background-color: rgb(216, 221, 239);
   width: 12%;
-  height: 300px;
+  /* height: 300px; */
 }
   
   /* Style the buttons that are used to open the tab content */
 .tab button {
-  display: block;
+  /* display: block; */
   background-color: inherit;
-  color: black;
   padding: 14px 16px;
   width: 100%;
   border: none;
-  outline: none;
+  /* outline: none; */
   text-align: left;
   cursor: pointer;
   transition: 0.3s;
@@ -89,31 +86,35 @@ footer {
   background-color: rgb(162, 165, 179);
 }
   
-/* Create an active/current tablink class */
+/* Active Tab colour */
 .tab button.active {
   background-color: rgb(118, 132, 182);
+}
+.tab .icon button.active {
+  background-color: black;
 }
   
   /* Style the tab content */
 .tabcontent {
   float: left;
   padding: 0px 12px;
-  border: 1px solid rgb(216, 221, 239);
+  /* border: 1px solid rgb(216, 221, 239); */
   width: 70%;
   border-left: none;
   height: 300px;
 } 
-.tab button .icon {
-  /* height: 2px; */
-  width: 10%;
-}
 .welcomeText {
   font-family: 'Istok Web', sans-serif;
   font-size: 10vh;
   text-align: left;
   padding-left: 5vh;
-  /* padding-top: 15vh; */
 }
 section {
   padding-top: 15vh;
+}
+img, .collapsible {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
 }
