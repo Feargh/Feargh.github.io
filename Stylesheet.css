@@ -135,4 +135,10 @@ p {
 section {
   border-right: 0;
 }
+iframe {
+  width: 600;
+}
+h2, p {
+  margin-top: 10px;
+}
 }
