@@ -109,3 +109,30 @@ img, .collapsible {
   text-align: center;
   color: #b4b7bc;
 }
+
+/* Smaller screen sizes */
+@media (max-width: 700px) {
+.tab {
+  float: none;
+  width: 100%;
+  height: auto;
+  margin-left: 0;
+  padding-top: 0;
+}
+.tab button {
+  display: inline-block;
+  width: auto;
+  }
+section {
+  padding-top: 2vh;
+}
+.welcomeText {
+  font-size: 7vh;
+}
+p {
+  border-right: 0;
+}
+section {
+  border-right: 0;
+}
+}
