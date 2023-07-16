@@ -31,6 +31,7 @@ p {
   width: 400px;
   border: none;
   outline: none;
+  padding-bottom: 20px;
 }
 .content {              /* this it the style for the Read more button text that appears */
   display: none;
@@ -129,14 +130,8 @@ section {
 .welcomeText {
   font-size: 7vh;
 }
-p {
-  border-right: 0;
-}
-section {
-  border-right: 0;
-}
 iframe {
-  width: 600;
+  width: 600px;
 }
 h2, p {
   margin-top: 10px;
