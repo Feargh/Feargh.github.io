@@ -1,8 +1,8 @@
 # Showcase website for progress in coding
 
 ## Purpose of Project
-* To demonstrate proficiency in HTML, CSS and vanilla JavaScript
 * To show:
+  * Proficiency in HTML, CSS and vanilla JavaScript
   * More about myself
   * Why I would like to move into coding
   * What I've learnt so far
