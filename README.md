@@ -1,6 +1,6 @@
-# Showcase website for progress in coding
+# Showcase website
 
-## Purpose of Project
+## Purpose of this Project
 * To show:
   * Proficiency in HTML, CSS and vanilla JavaScript
   * More about myself
