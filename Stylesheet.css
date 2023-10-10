@@ -1,7 +1,7 @@
 body, main, p, h2, h3, img, section, figure, figcaption, footer {
   background-color: #0f2034;
 }
-h1, h2, p {
+h1, h2, p{
   max-width: 1000px;
   margin: auto;           
 }
@@ -9,14 +9,14 @@ h2 {
   font-family: 'Istok Web', sans-serif;
   font-size: 6vh;
 }
-h2, p {
+h2, p, li {
   color: rgb(255, 255, 255);
   margin-top: 30px;
 }
 h2, p, figure {
   margin-bottom: 30px;
 }
-p {
+p, li {
   font-family: 'Average', serif;
   /* font-size: 2.5vh; */
   font-size: 1.4rem;
