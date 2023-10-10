@@ -49,7 +49,7 @@ iframe {
   box-sizing: border-box;
 }
    /* Style the tab */
-.tab {
+nav {
   padding-top: 18vh;
   margin-left: 6vh;
   float: left;
